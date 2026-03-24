@@ -1,4 +1,5 @@
-num_01 = input("digite o primeiro valor: ")
-num_02 = input("digite o segundo valor: ")
-print("a soma dos valores é: " + str(int(num_01) + int(num_02)))
-
+nome = input("Digite seu nome: ")
+salario = float(input("Digite seu salário: "))
+bonus = float(input("Digite o valor do bônus: "))
+salario_final = salario + bonus
+print("O salário final de " + nome + " é: " + str(salario_final))
